@@ -1,0 +1,668 @@
+{
+  "title": "牛吃草问题",
+  "lecture_num": "第13讲",
+  "season": "春季",
+  "teacher": "主讲老师：途途途",
+  "notes": "v1.0 牛吃草——基于教学设计稿《第13讲 牛吃草问题 详细教学设计》明确标注的'对应课件PN'映射，共 33 张。",
+  "slides": [
+    {
+      "slide_num": 1,
+      "slide_role": "cover",
+      "source": {
+        "type": "template_idx",
+        "idx": 1
+      },
+      "placeholders": {
+        "12": "牛吃草问题",
+        "13": "主讲老师：途途途",
+        "19": "第13讲"
+      },
+      "free_shapes": {
+        "文本框 23": "春季"
+      }
+    },
+    {
+      "slide_num": 2,
+      "slide_role": "toc",
+      "source": {
+        "type": "template_idx",
+        "idx": 2
+      },
+      "placeholders": {
+        "11": "本讲知识",
+        "13": "牛吃草问题",
+        "14": "学习时长",
+        "15": "110 分钟",
+        "16": "目录"
+      }
+    },
+    {
+      "slide_num": 3,
+      "slide_role": "objectives_p1",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 2
+      },
+      "placeholders": {
+        "11": "知识技能",
+        "13": "了解牛吃草问题中的基本量，掌握典型牛吃草问题的基本步骤和思想，掌握求时间或求牛数等具体题型的解题方法",
+        "14": "数学能力",
+        "15": "模型意识、应用意识",
+        "16": "学习目标"
+      }
+    },
+    {
+      "slide_num": 4,
+      "slide_role": "objectives_p2",
+      "source": {
+        "type": "template_idx",
+        "idx": 3
+      },
+      "placeholders": {
+        "11": "思想方法",
+        "13": "分析法、综合法、假设法",
+        "14": "情感态度",
+        "15": "学会寻找和分析变量，并感受数学与实际生活的联系",
+        "16": "学习目标"
+      }
+    },
+    {
+      "slide_num": 5,
+      "slide_role": "module_cover_1",
+      "source": {
+        "type": "template_idx",
+        "idx": 4
+      },
+      "placeholders": {
+        "10": "01.",
+        "11": "模块一\n草生长速度"
+      }
+    },
+    {
+      "slide_num": 6,
+      "slide_role": "story_intro",
+      "source": {
+        "type": "template_idx",
+        "idx": 5
+      },
+      "placeholders": {
+        "12": "故事导入"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🐮 故事导入：聪明牛的考验\n\n同学们，今天葫芦老板的牧场来了几位特殊的客人——聪明牛！\n\n葫芦老板说：\"聪明牛可不卖，你得通过聪明牛的考验才能得到它们！\"\n\n到底是什么考验呢？\n就让我们一起进入今天的学习——牛吃草问题！",
+          "left": 1.4,
+          "top": 1.5,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 22
+        }
+      ]
+    },
+    {
+      "slide_num": 7,
+      "slide_role": "thinking_1",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 5
+      },
+      "placeholders": {
+        "12": "探索"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 思考 1：静态仓库问题（铺垫）\n\n仓库里有 20 份草，假设 1 头牛 1 天吃 1 份草，那么这个仓库可供四头牛吃（   ）天。\n\n💡 仓库里的草会变吗？\n生：不会！\n\n📐 计算：20 ÷ 4 = 5 天\n\n👉 设计意图：从静态问题入手，建立对比基础。",
+          "left": 1.4,
+          "top": 1.4,
+          "width": 10.5,
+          "height": 5.6,
+          "font_size": 22
+        }
+      ]
+    },
+    {
+      "slide_num": 8,
+      "slide_role": "thinking_2",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 5
+      },
+      "placeholders": {
+        "12": "探索"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 思考 2：动态牧场问题（核心区别）\n\n如果这四头牛在一片长了 20 份牧草的牧场上，牧草每天都匀速生长，这四头牛要把草吃完需要（   ）天？\n  A. 等于 5 天    B. 多于 5 天\n\n🐮 牧场和仓库有什么不一样？——每天都在长！\n\n📐 总草量 = 原有草量 + 新生草量\n\n答：选 B。",
+          "left": 1.4,
+          "top": 1.4,
+          "width": 10.5,
+          "height": 5.6,
+          "font_size": 22
+        }
+      ]
+    },
+    {
+      "slide_num": 9,
+      "slide_role": "thinking_3",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 5
+      },
+      "placeholders": {
+        "12": "探索"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 思考 3：总草量与新生草量\n\n四头牛吃了 8 天把草吃完了。那么：\n（1）四头牛吃的总草量为（   ）份。\n（2）这 8 天新生草量为（   ）份。\n\n📐 总草量 = 牛数 × 天数 = 4 × 8 = 32 份\n📐 新生草量 = 32 - 20 = 12 份\n\n板书：\n① 总草量 = 原有草量 + 新生草量\n② 总草量 = n 头牛 m 天吃的草量 = m × n",
+          "left": 1.4,
+          "top": 1.4,
+          "width": 10.5,
+          "height": 5.6,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "slide_num": 10,
+      "slide_role": "small_practice",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 5
+      },
+      "placeholders": {
+        "12": "小练习"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 小练习：途途的牧场\n\n途途的牧场原有 20 份牧草，牧草以每天 2 份的速度匀速生长。5 天后，这片牧场共有牧草（   ）份。\n\n📐 解答：\n  2 × 5 = 10 份（新生草）\n  20 + 10 = 30 份（总草量）\n\n板书：\n③ 新生草量 = 生长速度 × 天数",
+          "left": 1.4,
+          "top": 1.4,
+          "width": 10.5,
+          "height": 5.6,
+          "font_size": 22
+        }
+      ]
+    },
+    {
+      "slide_num": 11,
+      "slide_role": "example_1",
+      "source": {
+        "type": "template_idx",
+        "idx": 6
+      },
+      "placeholders": {
+        "11": "例 1",
+        "16": "牧场上长满牧草，牧草每天都匀速生长。这片牧场可供 10 头牛吃 15 天，或供 8 头牛吃 25 天。假设每头牛每天吃一份草，这片牧场每天长草多少份？"
+      },
+      "resize_placeholders": {
+        "16": {
+          "left": 0.65,
+          "width": 12.0
+        }
+      },
+      "add_text_boxes": [
+        {
+          "text": "【完整解答】\n第一步：算两种情况的总草量\n  10 × 15 = 150 份\n  8 × 25 = 200 份\n\n第二步：分析差异\n  时间差：25 - 15 = 10 天\n  草量差：200 - 150 = 50 份\n\n第三步：求生长速度\n  (200-150) ÷ (25-15) = 5 份/天\n\n板书 ④：生长速度 = 总量差 ÷ 时间差",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 5.0,
+          "font_size": 18
+        }
+      ]
+    },
+    {
+      "slide_num": 12,
+      "slide_role": "practice_1",
+      "source": {
+        "type": "template_idx",
+        "idx": 7
+      },
+      "placeholders": {
+        "11": "练 1",
+        "10": "一片均匀生长的草场，可供 12 头牛吃 10 天，也可供 18 头牛吃 5 天。已知每头牛每天吃 1 份草，那么这片草场每天新生长多少份草？\n\n【参考答案】\n(12×10 - 18×5) ÷ (10-5) = (120-90)÷5 = 6 份/天"
+      }
+    },
+    {
+      "slide_num": 13,
+      "slide_role": "thinking_fun",
+      "source": {
+        "type": "template_idx",
+        "idx": 9
+      },
+      "placeholders": {
+        "12": "趣味思考"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 趣味思考：草吃不完的条件\n\n1 头牛 1 天吃 1 份草，要想草吃不完，每天草地至少长（   ）份草？\n\n💡 引导：每天长的草至少要够几头牛吃？\n生：4 头！因为长 4 份刚好够 4 头牛吃，永远吃不完！\n\n🌱 延伸：每天长 10 份草，最多可让（   ）头牛有吃不完的草。\n生：10 头！\n\n📐 结论：要想草永远吃不完，牛数 = 生长速度",
+          "left": 1.4,
+          "top": 1.4,
+          "width": 10.5,
+          "height": 5.6,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "slide_num": 14,
+      "slide_role": "example_2",
+      "source": {
+        "type": "template_idx",
+        "idx": 10
+      },
+      "placeholders": {
+        "11": "例 2",
+        "16": "牧场上长满牧草，牧草每天都匀速生长。这片牧场可供 17 头牛吃 8 天，或供 20 头牛吃 5 天。假设每头牛每天吃一份草，这片牧场最多可以养多少头牛使牧场上的草永远吃不完？"
+      },
+      "resize_placeholders": {
+        "16": {
+          "left": 0.65,
+          "width": 12.0
+        }
+      },
+      "add_text_boxes": [
+        {
+          "text": "【完整解答】\n\n师：这道题求什么？\n生：求生长速度！\n\n📐 计算：\n  17 × 8 = 136 份\n  20 × 5 = 100 份\n  (136-100) ÷ (8-5) = 36÷3 = 12 份/天\n\n答：最多可以养 12 头牛。",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 5.0,
+          "font_size": 18
+        }
+      ]
+    },
+    {
+      "slide_num": 15,
+      "slide_role": "practice_2",
+      "source": {
+        "type": "template_idx",
+        "idx": 11
+      },
+      "placeholders": {
+        "11": "练 2",
+        "10": "有一块均匀生长的草场，一片草地上的草可供 10 头牛吃 8 天，或可供 12 头牛吃 6 天，假设草每天生长的速度是一样的。如果要保证草永远不会被吃完，这片草地最多能养几头牛？\n\n【参考答案】\n(10×8 - 12×6) ÷ (8-6) = (80-72)÷2 = 4 份/天 → 最多养 4 头牛"
+      }
+    },
+    {
+      "slide_num": 16,
+      "slide_role": "notes_1",
+      "source": {
+        "type": "template_idx",
+        "idx": 8
+      },
+      "placeholders": {
+        "11": "1. 草生长速度"
+      },
+      "add_text_boxes": [
+        {
+          "text": "📝 基础知识：\n（1）原有草量相同\n（2）总草量随着时间的增长而变化\n（3）总草量 = 原有草量 + 新生草量\n（4）新生草量 = 生长速度 × 天数\n（5）生长速度 = 总量差 ÷ 时间差",
+          "left": 2.9,
+          "top": 3.6,
+          "width": 7.5,
+          "height": 3.5,
+          "font_size": 20
+        }
+      ],
+      "free_shapes": {
+        "圆角矩形 58": "牛吃草问题"
+      }
+    },
+    {
+      "slide_num": 17,
+      "slide_role": "module_cover_2",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 4
+      },
+      "placeholders": {
+        "10": "02.",
+        "11": "模块二\n原有草量"
+      }
+    },
+    {
+      "slide_num": 18,
+      "slide_role": "story_transition_2",
+      "source": {
+        "type": "template_idx",
+        "idx": 12
+      },
+      "placeholders": {
+        "12": "情境过渡"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🌾 大草原的危机\n\n牛哥牛弟正在发愁——\n\"苍天呐大地呐，我的大草原每天只长 2 份草了！\"\n\n牛弟说：\"哥，能过一天是一天，这片草地咱们可以吃 15 天！\"\n\n💭 我们来算算，这片草地原来有多少草？",
+          "left": 1.4,
+          "top": 1.4,
+          "width": 10.5,
+          "height": 5.6,
+          "font_size": 22
+        }
+      ]
+    },
+    {
+      "slide_num": 19,
+      "slide_role": "thinking_4",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 12
+      },
+      "placeholders": {
+        "12": "探索"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 思考：求原有草量\n\n每天新长的草刚好供 2 头牛吃，这四头牛吃了 15 天刚好把草吃完，那么这片牧场原有牧草（   ）份？\n\n💡 师：四头牛 15 天一共吃了多少草？\n生：4 × 15 = 60 份（总草量）\n师：这 15 天新长了多少草？\n生：2 × 15 = 30 份（新生草）\n师：那原来有多少草？\n生：60 - 30 = 30 份！\n\n板书 ⑤：原有草量 = 总草量 - 新生草量",
+          "left": 1.4,
+          "top": 1.4,
+          "width": 10.5,
+          "height": 5.6,
+          "font_size": 18
+        }
+      ]
+    },
+    {
+      "slide_num": 20,
+      "slide_role": "example_3",
+      "source": {
+        "type": "template_idx",
+        "idx": 13
+      },
+      "placeholders": {
+        "11": "例 3",
+        "16": "牧场上长满牧草，牧草每天都匀速生长，每天新长的草刚好供 20 头牛吃。牧场主在牧场上养了 30 头牛，10 天后吃完了牧场上所有的草。这片牧场上原有草多少份？"
+      },
+      "resize_placeholders": {
+        "16": {
+          "left": 0.65,
+          "width": 12.0
+        }
+      },
+      "add_text_boxes": [
+        {
+          "text": "【完整解答】\n\n总草量：30 × 10 = 300 份\n新生草：20 × 10 = 200 份\n原有草：300 - 200 = 100 份\n\n答：这片牧场上原有草 100 份。",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 4.5,
+          "font_size": 20
+        }
+      ]
+    },
+    {
+      "slide_num": 21,
+      "slide_role": "practice_3",
+      "source": {
+        "type": "template_idx",
+        "idx": 14
+      },
+      "placeholders": {
+        "11": "练 3",
+        "10": "每天新长的草刚好供 15 头牛吃。牧场主在牧场上养了 20 头牛，8 天后吃完了牧场上所有的草。这片牧场上原有草多少份？\n\n【参考答案】\n20×8 = 160 份, 15×8 = 120 份, 160-120 = 40 份"
+      }
+    },
+    {
+      "slide_num": 22,
+      "slide_role": "example_4",
+      "source": {
+        "type": "template_idx",
+        "idx": 16
+      },
+      "placeholders": {
+        "11": "例 4",
+        "16": "牧场上长满牧草，牧草每天都匀速生长。已知这片牧场可供 19 头牛吃 14 天，或供 14 头牛吃 21 天。这片牧场原来有多少份牧草？"
+      },
+      "resize_placeholders": {
+        "16": {
+          "left": 0.65,
+          "width": 12.0
+        }
+      },
+      "add_text_boxes": [
+        {
+          "text": "【完整解答：两步法】\n\n第一步：求生长速度\n  19 × 14 = 266 份\n  14 × 21 = 294 份\n  (294-266) ÷ (21-14) = 28÷7 = 4 份/天\n\n第二步：求原有草量\n  266 - (4 × 14) = 266 - 56 = 210 份\n\n💡 验算：用第二种情况算\n  294 - (4 × 21) = 294 - 84 = 210 份 ✓\n\n答：原有 210 份牧草。",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 5.0,
+          "font_size": 17
+        }
+      ]
+    },
+    {
+      "slide_num": 23,
+      "slide_role": "practice_4",
+      "source": {
+        "type": "template_idx",
+        "idx": 17
+      },
+      "placeholders": {
+        "11": "练 4",
+        "10": "一片草场长满牧草，若 10 头牛则 20 天吃完草场，若 15 头牛吃则 10 天吃完，每头牛每天吃 1 份草，那么草场原有多少份草？\n\n【参考答案】\n生长速度：(10×20-15×10)÷(20-10) = 5 份/天\n原有草量：200 - 5×20 = 100 份"
+      }
+    },
+    {
+      "slide_num": 24,
+      "slide_role": "notes_2_a",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 8
+      },
+      "placeholders": {
+        "11": "2. 原有草量"
+      },
+      "add_text_boxes": [
+        {
+          "text": "📝 基础知识：\n（1）原有草量 = 总草量 - 新生草量\n（2）新生草量 = 生长速度 × 吃的天数",
+          "left": 2.9,
+          "top": 3.6,
+          "width": 7.5,
+          "height": 3.5,
+          "font_size": 20
+        }
+      ],
+      "free_shapes": {
+        "圆角矩形 58": "牛吃草问题"
+      }
+    },
+    {
+      "slide_num": 25,
+      "slide_role": "notes_2_b",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 8
+      },
+      "placeholders": {
+        "11": "求原草解题步骤"
+      },
+      "add_text_boxes": [
+        {
+          "text": "📝 求原草解题步骤：\n（1）求出总草量：n 头牛每天吃的份数 × 吃的天数\n（2）求出草的生长速度：总量差 ÷ 时间差\n（3）求出原有草量：总草量 - 新生草量",
+          "left": 2.9,
+          "top": 3.6,
+          "width": 7.5,
+          "height": 3.5,
+          "font_size": 20
+        }
+      ],
+      "free_shapes": {
+        "圆角矩形 58": "牛吃草问题"
+      }
+    },
+    {
+      "slide_num": 26,
+      "slide_role": "module_cover_3",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 4
+      },
+      "placeholders": {
+        "10": "03.",
+        "11": "模块三\n分牛法求天数"
+      }
+    },
+    {
+      "slide_num": 27,
+      "slide_role": "story_transition_3",
+      "source": {
+        "type": "template_idx",
+        "idx": 15
+      },
+      "placeholders": {
+        "12": "趣味过渡"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🌱 长的嫩草！\n\n现在我们知道了草的生长速度和原有草量，\n那如果知道有多少头牛，能吃多少天呢？\n\n这就是我们今天最核心的内容——\n\n  🐮 分牛法！",
+          "left": 1.4,
+          "top": 1.6,
+          "width": 10.5,
+          "height": 5.0,
+          "font_size": 22
+        }
+      ]
+    },
+    {
+      "slide_num": 28,
+      "slide_role": "thinking_division",
+      "source": {
+        "type": "template_idx",
+        "idx": 18
+      },
+      "placeholders": {
+        "12": "探索"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 分牛法初探\n\n四头牛在长了 20 份草的牧场上，1 牛 1 天 1 份，牧草每天长 2 份，这片牧场可供四头牛吃（   ）天？\n\n💡 关键引入：分牛法！\n  🐄 幸福牛：专门吃每天新长出来的嫩草！\n  😭 倒霉牛：只能吃原来就有的老草！\n\n📐 解答：\n  每天长 2 份 → 2 头幸福牛吃新草\n  剩下 4-2=2 头倒霉牛吃原有 20 份草\n  20 ÷ 2 = 10 天\n\n板书：分牛法 → 天数 = 原有草量 ÷ 倒霉牛数量",
+          "left": 1.4,
+          "top": 1.3,
+          "width": 10.5,
+          "height": 5.7,
+          "font_size": 17
+        }
+      ]
+    },
+    {
+      "slide_num": 29,
+      "slide_role": "example_5",
+      "source": {
+        "type": "template_idx",
+        "idx": 19
+      },
+      "placeholders": {
+        "11": "例 5",
+        "16": "牧场上长满牧草，牧草每天都匀速生长。已知这片牧场可供 27 头牛吃 6 天，或供 23 头牛吃 9 天。若现在有 21 头牛，要多少天才可以吃完？"
+      },
+      "resize_placeholders": {
+        "16": {
+          "left": 0.65,
+          "width": 12.0
+        }
+      },
+      "add_text_boxes": [
+        {
+          "text": "【完整解答：四步曲】★★★\n\n第一步：求总草量\n  27 × 6 = 162 份, 23 × 9 = 207 份\n\n第二步：求生长速度（= 幸福牛数量）\n  (207-162) ÷ (9-6) = 45÷3 = 15 份/天 → 15 头幸福牛\n\n第三步：求原有草量\n  162 - (15 × 6) = 162-90 = 72 份\n\n第四步：分牛求天数\n  幸福牛：15 头  /  倒霉牛：21-15 = 6 头\n  天数：72 ÷ 6 = 12 天\n\n答：要 12 天才可以吃完。",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 5.0,
+          "font_size": 15
+        }
+      ]
+    },
+    {
+      "slide_num": 30,
+      "slide_role": "practice_5",
+      "source": {
+        "type": "template_idx",
+        "idx": 20
+      },
+      "placeholders": {
+        "11": "练 5",
+        "10": "若放养 18 头牛 10 天吃完；放养 24 头牛 7 天吃完。如果放养 32 头牛，多少天可以把草吃完？\n\n【参考答案】\n18×10=180 份, 24×7=168 份\n生长速度：(180-168)÷(10-7) = 4 份/天\n原有草量：180-4×10 = 140 份\n分牛：幸福 4 头，倒霉 32-4=28 头\n天数：140÷28 = 5 天"
+      }
+    },
+    {
+      "slide_num": 31,
+      "slide_role": "notes_3",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 8
+      },
+      "placeholders": {
+        "11": "3. 求天数解题步骤"
+      },
+      "add_text_boxes": [
+        {
+          "text": "📝 求天数解题步骤：\n（1）设 1 头牛 1 天吃 1 份草\n（2）求草的生长速度\n（3）求原有草量\n（4）分牛\n  🐄 幸福牛吃新草 → 草不再生长\n  😭 倒霉牛吃原草 → 草定量消耗\n\n📐 算天：倒霉牛 = 牛数 - 草速\n     天数 = 原草 ÷ 倒霉牛",
+          "left": 2.9,
+          "top": 3.6,
+          "width": 7.5,
+          "height": 3.5,
+          "font_size": 20
+        }
+      ],
+      "free_shapes": {
+        "圆角矩形 58": "牛吃草问题"
+      }
+    },
+    {
+      "slide_num": 32,
+      "slide_role": "lesson_summary",
+      "source": {
+        "type": "template_idx",
+        "idx": 21
+      },
+      "placeholders": {
+        "10": "本讲总结"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 牛吃草问题 · 解题四步曲\n\n第一步  设单位  →  1 头牛 1 天吃 1 份草\n           ↓\n第二步  求草速  →  生长速度 = 总量差 ÷ 时间差\n           ↓\n第三步  求原草  →  原有草量 = 总草量 - 天数 × 草速\n           ↓\n第四步  分牛算  →  幸福牛吃新草，倒霉牛吃原草\n                  天数 = 原有草量 ÷ (牛数 - 草速)\n\n💡 特别记忆：千万别让幸福牛去吃老草哦~ 😄",
+          "left": 1.4,
+          "top": 1.7,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 18
+        }
+      ]
+    },
+    {
+      "slide_num": 33,
+      "slide_role": "homework",
+      "source": {
+        "type": "template_idx",
+        "idx": 22
+      },
+      "placeholders": {
+        "12": "课后任务"
+      },
+      "add_text_boxes": [
+        {
+          "text": "📚 课后任务\n\n1. 《伴学》第13讲 P25~26\n2. 《计算册》 每日计算练习\n3. 真题速通关 （拓展提升）\n4. 订正上周的作业 （养成好习惯）",
+          "left": 2.15,
+          "top": 2.0,
+          "width": 9.0,
+          "height": 4.5,
+          "font_size": 22
+        }
+      ]
+    },
+    {
+      "slide_num": 34,
+      "slide_role": "end",
+      "source": {
+        "type": "template_idx",
+        "idx": 23
+      },
+      "free_shapes": {
+        "文本框 8": {
+          "text": "下节课再见！",
+          "font_size": 54
+        }
+      }
+    }
+  ]
+}

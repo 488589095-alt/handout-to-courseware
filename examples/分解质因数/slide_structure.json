@@ -1,0 +1,650 @@
+{
+  "title": "分解质因数",
+  "lecture_num": "第1讲",
+  "season": "春季",
+  "teacher": "主讲老师：途途途",
+  "notes": "v0.6: 严格按教学设计稿《分解质因数110分钟教学设计》的段落顺序，砍掉教学设计稿没引用的练习（练1 5040年龄/练2 8数分组/练4 1-30末尾0）。共 32 张。修复了 duplicate vs modify 顺序导致的内容重叠。",
+  "slides": [
+    {
+      "slide_num": 1,
+      "slide_role": "cover",
+      "source": {
+        "type": "template_idx",
+        "idx": 1
+      },
+      "placeholders": {
+        "12": "分解质因数",
+        "13": "主讲老师：途途途",
+        "19": "第1讲"
+      },
+      "free_shapes": {
+        "文本框 23": "春季"
+      }
+    },
+    {
+      "slide_num": 2,
+      "slide_role": "knowledge_ladder",
+      "source": {
+        "type": "add_layout",
+        "layout": "标题-文字少"
+      },
+      "placeholders": {
+        "16": "知识阶梯"
+      },
+      "add_images": [
+        {
+          "image_path": "/Users/gaotu/product-design-space/output/handout-to-courseware/分解质因数/assets/知识阶梯.png",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0
+        }
+      ]
+    },
+    {
+      "slide_num": 3,
+      "slide_role": "objectives_p1",
+      "source": {
+        "type": "template_idx",
+        "idx": 2
+      },
+      "placeholders": {
+        "11": "知识技能",
+        "13": "理解分解质因数的概念，掌握短除法分解质因数的方法，掌握质因数相关的拓展应用",
+        "14": "数学能力",
+        "15": "数感与运算能力、逻辑推理能力、归纳分析能力",
+        "16": "学习目标"
+      }
+    },
+    {
+      "slide_num": 4,
+      "slide_role": "objectives_p2",
+      "source": {
+        "type": "template_idx",
+        "idx": 3
+      },
+      "placeholders": {
+        "11": "思想方法",
+        "13": "转化思想、分类讨论思想、归纳思想与整体思想",
+        "14": "情感态度",
+        "15": "培养学生有序思考、严谨分析的习惯，体会数学知识的关联性，增强解决复杂问题的信心",
+        "16": "学习目标"
+      }
+    },
+    {
+      "slide_num": 5,
+      "slide_role": "module_cover_intro",
+      "source": {
+        "type": "template_idx",
+        "idx": 4
+      },
+      "placeholders": {
+        "10": "00.",
+        "11": "导入环节\n密码破译·数字的基因密码"
+      }
+    },
+    {
+      "slide_num": 6,
+      "slide_role": "scene_intro",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 5
+      },
+      "placeholders": {
+        "12": "情境创设"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🔍 各位密码破解者，欢迎来到数字王国！\n\n今天我们将学习如何破解数字的基因密码——分解质因数。\n\n每个合数都有它独特的'质因数 DNA'，\n只有掌握这个秘密，我们才能解开后面的谜题，\n最终找到传说中的'智慧宝藏'。",
+          "left": 1.4,
+          "top": 1.5,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 7,
+      "slide_role": "thinking_1",
+      "source": {
+        "type": "template_idx",
+        "idx": 5
+      },
+      "placeholders": {
+        "12": "探索"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 数字侦探游戏\n\n请尝试用乘法表示 12：\n  3 × 4 = 12\n  2 × 6 = 12\n  2 × 2 × 3 = 12  ← 最简 DNA\n\n💡 引导发现：2 × 2 × 3 是 12 的'最简DNA'，因为不能再分解了。\n\n类比：人的 DNA 是由基因片段组成，数字的 DNA 就是它的质因数。",
+          "left": 1.4,
+          "top": 1.5,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 8,
+      "slide_role": "thinking_2",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 5
+      },
+      "placeholders": {
+        "12": "探索"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 质因数定义探究\n\n• 什么是质数？\n  只有 1 和它本身两个因数。\n\n• 什么是质因数？\n  既是质数，又是因数。\n\n动手分解 18：\n  18 = 2 × 9 = 2 × 3 × 3  →  最简 DNA：2 × 3 × 3\n\n📌 关键发现：每个合数都能被唯一分解为质因数的乘积。",
+          "left": 1.4,
+          "top": 1.5,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 9,
+      "slide_role": "story_transition_1",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 5
+      },
+      "placeholders": {
+        "12": "故事推进"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🔑 密码破解者们，你们已经掌握了发现数字 DNA 的方法。\n\n现在，我们要学习第一个破解工具——\n\n  📐 短除法！",
+          "left": 1.4,
+          "top": 2.0,
+          "width": 10.5,
+          "height": 4.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 10,
+      "slide_role": "module_cover_1",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 4
+      },
+      "placeholders": {
+        "10": "01.",
+        "11": "模块一\n分解质因数的方法"
+      },
+      "add_text_boxes": [
+        {
+          "text": "工具修炼：短除法秘籍",
+          "left": 3.15,
+          "top": 5.7,
+          "width": 7.0,
+          "height": 0.8,
+          "font_size": 16
+        }
+      ]
+    },
+    {
+      "slide_num": 11,
+      "slide_role": "skill_learn_1",
+      "source": {
+        "type": "template_idx",
+        "idx": 9
+      },
+      "placeholders": {
+        "12": "技能学习"
+      },
+      "add_text_boxes": [
+        {
+          "text": "📐 短除法教学：分解 420\n\n  420 │ 2\n  210 │ 2\n  105 │ 3\n   35 │ 5\n    7 │ 7\n    1\n\n→ 420 = 2 × 2 × 3 × 5 × 7\n\n口诀：从小的质数开始，除到商为 1 止，乘除数得质因数。",
+          "left": 1.4,
+          "top": 1.5,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 12,
+      "slide_role": "example_1",
+      "source": {
+        "type": "template_idx",
+        "idx": 6
+      },
+      "placeholders": {
+        "11": "例 1",
+        "16": "请把下面的数分解质因数：（1）420；（2）561；（3）467。"
+      },
+      "add_text_boxes": [
+        {
+          "text": "（1）420 = 2² × 3 × 5 × 7\n\n（2）561 = 3 × 11 × 17\n\n（3）467 是质数（不能再分解），467 本身就是它的质因数。\n\n💡 重要发现：质数本身就是它的质因数。",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 5.0,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 13,
+      "slide_role": "student_practice_1",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 9
+      },
+      "placeholders": {
+        "12": "学生练习"
+      },
+      "add_text_boxes": [
+        {
+          "text": "✏️ 学生练习\n\n• 分组竞赛：分解 561 → 3 × 11 × 17\n• 挑战升级：分解 467 → 467 是质数，本身就是它的质因数\n\n📋 继续练习：\n  • 375 = 3 × 5³\n  • 12660 = 2² × 3 × 5 × 211\n  • 2020 = 2² × 5 × 101",
+          "left": 1.4,
+          "top": 1.5,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 14,
+      "slide_role": "story_transition_2",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 12
+      },
+      "placeholders": {
+        "12": "故事推进"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎉 恭喜你们掌握了短除法秘籍！\n\n现在我们拥有了第一把破解密码的钥匙。\n\n前方出现了新的挑战——\n\n  🔓 数字拆分谜题！",
+          "left": 1.4,
+          "top": 2.0,
+          "width": 10.5,
+          "height": 4.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 15,
+      "slide_role": "module_cover_2",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 4
+      },
+      "placeholders": {
+        "10": "02.",
+        "11": "模块二\n拆数"
+      },
+      "add_text_boxes": [
+        {
+          "text": "数字拆分：智慧钥匙锻造",
+          "left": 3.15,
+          "top": 5.7,
+          "width": 7.0,
+          "height": 0.8,
+          "font_size": 16
+        }
+      ]
+    },
+    {
+      "slide_num": 16,
+      "slide_role": "example_2",
+      "source": {
+        "type": "template_idx",
+        "idx": 10
+      },
+      "placeholders": {
+        "11": "例 2",
+        "16": "三个自然数的乘积为 84，其中两个数的和正好等于第三个数。请求出这三个数。"
+      },
+      "add_text_boxes": [
+        {
+          "text": "【破解思路】\n（1）先分解 84 的'DNA'：84 = 2 × 2 × 3 × 7\n（2）重新分组，尝试不同的组合\n（3）验证 a + b = c 的条件\n\n【尝试探索】\n• 2 × (2×3) × 7 = 2 × 6 × 7  → 2 + 6 = 8 ≠ 7 ✗\n• 3 × (2×2) × 7 = 3 × 4 × 7  → 3 + 4 = 7 ✓\n\n【方法总结】\n步骤1：分解质因数  →  步骤2：合理分组  →  步骤3：验证条件",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 5.0,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 17,
+      "slide_role": "example_3",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 10
+      },
+      "placeholders": {
+        "11": "例 3",
+        "16": "在射箭运动中，每射一箭得到的环数都是不超过 10 的自然数。甲、乙两名运动员各射了 5 箭，每人 5 箭得到的环数的积都是 1764，但是甲的总环数比乙少 4 环。求甲、乙各自的总环数。"
+      },
+      "add_text_boxes": [
+        {
+          "text": "【题目分析】\n甲乙各 5 箭，环数 ≤ 10，积都 = 1764，甲总环数比乙少 4。\n\n【破解过程】\n第一步：分解 1764\n  1764 = 2² × 3² × 7² = 4 × 9 × 49\n\n第二步：寻找 5 个不超过 10 的因数组合\n  枚举可能：1,4,7,7,9 / 2,6,7,6,7 / 2,7,9,7,2 / 1,3,6,7×2 等\n\n第三步：找出和相差 4 的两组\n  详见教学设计稿对应完整枚举。\n\n💡 思路：先分解质因数，再按条件组合验证。",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 5.0,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 18,
+      "slide_role": "student_practice_2",
+      "source": {
+        "type": "template_idx",
+        "idx": 11
+      },
+      "placeholders": {
+        "11": "练 3",
+        "10": "十多岁的小坤参加区六年级 100 分制的数学竞赛，考了不错的成绩，他的岁数、分数和名次的乘积是 3492，小坤的成绩是多少？"
+      }
+    },
+    {
+      "slide_num": 19,
+      "slide_role": "story_transition_3",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 12
+      },
+      "placeholders": {
+        "12": "故事推进"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🌟 太棒了！你们已经锻造出两把智慧钥匙。\n\n现在，我们面临终极挑战——\n\n  💫 末尾 0 的秘密！",
+          "left": 1.4,
+          "top": 2.0,
+          "width": 10.5,
+          "height": 4.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 20,
+      "slide_role": "module_cover_3",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 4
+      },
+      "placeholders": {
+        "10": "03.",
+        "11": "模块三\n乘积末尾连续0的个数"
+      },
+      "add_text_boxes": [
+        {
+          "text": "终极挑战：末尾0的秘密",
+          "left": 3.15,
+          "top": 5.7,
+          "width": 7.0,
+          "height": 0.8,
+          "font_size": 16
+        }
+      ]
+    },
+    {
+      "slide_num": 21,
+      "slide_role": "concept_3",
+      "source": {
+        "type": "template_idx",
+        "idx": 12
+      },
+      "placeholders": {
+        "12": "核心概念"
+      },
+      "add_text_boxes": [
+        {
+          "text": "💡 末尾 0 的来源\n\n关键发现：2 × 5 = 10（产生一个 0）\n\n核心规律：\n• 末尾有几个 0，就看有几对 (2, 5)\n• 在连续乘积中，2 的因子永远比 5 多\n• 所以只需要计算 5 的因子个数\n\n📐 公式：⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + ...",
+          "left": 1.4,
+          "top": 1.5,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 22,
+      "slide_role": "example_4",
+      "source": {
+        "type": "template_idx",
+        "idx": 13
+      },
+      "placeholders": {
+        "11": "例 4",
+        "16": "算式 1 × 2 × 3 × ⋯ × 50 的计算结果的末尾有多少个连续的 0？"
+      },
+      "add_text_boxes": [
+        {
+          "text": "【破解过程】\n含 5 的数：5, 10, 15, 20, 25, 30, 35, 40, 45, 50\n\n每个数贡献的 5 的因子：\n• 5, 10, 15, 20, 30, 35, 40, 45 → 各贡献 1 个（共 8 个）\n• 25, 50 → 各贡献 2 个（25=5², 50=2×5²）（共 4 个）\n\n合计 5 的因子：8 + 4 = 12 个\n\n【方法总结·公式法】⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + ...\n  ⌊50/5⌋ + ⌊50/25⌋ = 10 + 2 = 12\n\n答：末尾有 12 个连续的 0。",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 5.0,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 23,
+      "slide_role": "example_5",
+      "source": {
+        "type": "template_idx",
+        "idx": 16
+      },
+      "placeholders": {
+        "11": "例 5",
+        "16": "算式 31 × 32 × 33 × ⋯ × 150 的计算结果的末尾有几个连续的 0？"
+      },
+      "add_text_boxes": [
+        {
+          "text": "答：末尾有 30 个 0。\n\n💡 思路：用方法迁移——\n31~150 = (1~150) - (1~30)",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 5.0,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 24,
+      "slide_role": "method_transfer_3",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 18
+      },
+      "placeholders": {
+        "12": "方法迁移"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 方法迁移：截取连续区间末尾 0\n\n31~150 = (1~150) - (1~30)\n\n1~150 的 5 因子：\n  ⌊150/5⌋ + ⌊150/25⌋ + ⌊150/125⌋\n  = 30 + 6 + 1 = 37\n\n1~30 的 5 因子：\n  ⌊30/5⌋ + ⌊30/25⌋ = 6 + 1 = 7\n\n31~150 的 5 因子：37 - 7 = 30\n\n💡 任意连续区间末尾 0 都可用此方法。",
+          "left": 1.4,
+          "top": 1.5,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 25,
+      "slide_role": "student_practice_3",
+      "source": {
+        "type": "template_idx",
+        "idx": 14
+      },
+      "placeholders": {
+        "11": "练 5",
+        "10": "算式 21 × 22 × 23 × ⋯ × 49 × 50 的计算结果末尾有多少个 0？"
+      }
+    },
+    {
+      "slide_num": 26,
+      "slide_role": "story_transition_4",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 15
+      },
+      "placeholders": {
+        "12": "故事推进"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🚀 密码破解者们，你们已经接近成功！\n\n最后一道关卡——\n\n  🔮 因数个数的奥秘！",
+          "left": 1.4,
+          "top": 2.0,
+          "width": 10.5,
+          "height": 4.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 27,
+      "slide_role": "module_cover_4",
+      "source": {
+        "type": "duplicate",
+        "from_idx": 4
+      },
+      "placeholders": {
+        "10": "04.",
+        "11": "模块四\n因数个数"
+      },
+      "add_text_boxes": [
+        {
+          "text": "终极奥秘：因数个数魔法",
+          "left": 3.15,
+          "top": 5.7,
+          "width": 7.0,
+          "height": 0.8,
+          "font_size": 16
+        }
+      ]
+    },
+    {
+      "slide_num": 28,
+      "slide_role": "core_knowledge_4",
+      "source": {
+        "type": "template_idx",
+        "idx": 18
+      },
+      "placeholders": {
+        "12": "核心知识"
+      },
+      "add_text_boxes": [
+        {
+          "text": "💡 因数个数公式\n\n若 A = aˣ × bʸ × cᶻ（a, b, c 不同质数）\n则 A 的因数个数 = (x+1) × (y+1) × (z+1)\n\n【原理】因数形式为 aᵖ × bᵍ × cʳ：\n• p 可取 0~x（共 x+1 种）\n• q 可取 0~y（共 y+1 种）\n• r 可取 0~z（共 z+1 种）\n\n💡 魔法公式：质数指数加 1，再相乘。",
+          "left": 1.4,
+          "top": 1.5,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 29,
+      "slide_role": "example_6",
+      "source": {
+        "type": "template_idx",
+        "idx": 19
+      },
+      "placeholders": {
+        "11": "例 6",
+        "16": "自然数 A 分解质因数是 A = a × a × a × b × b × c，a、b、c 是不同的质数，A 一共有多少个因数？"
+      },
+      "add_text_boxes": [
+        {
+          "text": "【破解过程】\n\n改写为：A = a³ × b² × c¹\n\n应用因数个数公式：\n  因数个数 = (3+1) × (2+1) × (1+1)\n           = 4 × 3 × 2\n           = 24 个\n\n答：A 一共有 24 个因数。",
+          "left": 1.15,
+          "top": 2.0,
+          "width": 11.0,
+          "height": 5.0,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 30,
+      "slide_role": "student_practice_4",
+      "source": {
+        "type": "template_idx",
+        "idx": 17
+      },
+      "placeholders": {
+        "11": "练 6",
+        "10": "自然数 N 分解质因数：N = p × p × p × q × r （p，q，r 是不同质数），N 共有多少个因数？"
+      }
+    },
+    {
+      "slide_num": 31,
+      "slide_role": "lesson_summary",
+      "source": {
+        "type": "template_idx",
+        "idx": 21
+      },
+      "placeholders": {
+        "10": "本讲总结"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🎯 故事线完整回顾\n  ① 成为密码破解者\n  ② 掌握短除法秘籍\n  ③ 锻造智慧钥匙\n  ④ 破解末尾 0 的秘密\n  ⑤ 掌握因数个数魔法\n  ⑥ 成为真正的数学密码大师！\n\n🎯 核心知识点梳理\n  ✓ 质因数定义与分解方法\n  ✓ 短除法的应用\n  ✓ 通过分解质因数解决拆数问题\n  ✓ 乘积末尾 0 个数的计算方法\n  ✓ 因数个数的计算公式",
+          "left": 1.4,
+          "top": 1.5,
+          "width": 10.5,
+          "height": 5.5,
+          "font_size": 22
+        }
+      ]
+    },
+    {
+      "slide_num": 32,
+      "slide_role": "extension_challenge",
+      "source": {
+        "type": "template_idx",
+        "idx": 22
+      },
+      "placeholders": {
+        "12": "拓展挑战"
+      },
+      "add_text_boxes": [
+        {
+          "text": "🚀 拓展挑战（课后）\n\n密码破解者们，真正的冒险才刚刚开始！\n\n课后挑战：\n  一个数分解质因数后，它的所有因数之和是多少？\n\n期待你们的破解！",
+          "left": 2.15,
+          "top": 1.8,
+          "width": 9.0,
+          "height": 5.0,
+          "font_size": 24
+        }
+      ]
+    },
+    {
+      "slide_num": 33,
+      "slide_role": "end",
+      "source": {
+        "type": "template_idx",
+        "idx": 23
+      },
+      "free_shapes": {
+        "文本框 8": {
+          "text": "下节课再见！",
+          "font_size": 54
+        }
+      }
+    }
+  ]
+}

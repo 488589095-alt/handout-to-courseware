@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# 中间产物（解析后的 JSON）
+output/
+*.pptx.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# 不要上传真实的讲义/教学设计稿/PPT 模板（属于客户机密 + 版权资产）
+*.docx
+*.pdf
+!examples/**/*.docx  # 但 examples 下的示例文档允许（如果有的话）
+!references/*.md
+*.pptx
