@@ -233,6 +233,52 @@ def _add_images(slide, images_list):
         )
 
 
+def _add_table(slide, data, left_inch, top_inch, width_inch, height_inch,
+               font_size=14, header_fill=None):
+    """在 slide 上插入表格。data 是 list of list of str（含表头行）。"""
+    from pptx.dml.color import RGBColor
+    rows = len(data)
+    cols = max(len(r) for r in data) if data else 0
+    if rows == 0 or cols == 0:
+        return
+    shape = slide.shapes.add_table(
+        rows, cols,
+        Inches(left_inch), Inches(top_inch),
+        Inches(width_inch), Inches(height_inch),
+    )
+    table = shape.table
+    for r, row in enumerate(data):
+        for c in range(cols):
+            cell = table.cell(r, c)
+            text = row[c] if c < len(row) else ""
+            tf = cell.text_frame
+            tf.clear()
+            tf.word_wrap = True
+            para = tf.paragraphs[0]
+            run = para.add_run()
+            run.text = str(text)
+            _set_run_lang(run, font_size)
+            if r == 0 and header_fill:
+                cell.fill.solid()
+                cell.fill.fore_color.rgb = RGBColor.from_string(header_fill.lstrip("#"))
+                run.font.bold = True
+
+
+def _add_tables(slide, tables_list):
+    """根据 list of dicts 添加多个表格。"""
+    for t in tables_list:
+        _add_table(
+            slide,
+            data=t["data"],
+            left_inch=t.get("left", 1.0),
+            top_inch=t.get("top", 3.0),
+            width_inch=t.get("width", 11.0),
+            height_inch=t.get("height", 2.0),
+            font_size=t.get("font_size", 14),
+            header_fill=t.get("header_fill"),
+        )
+
+
 # ──────────────────────────────────────────────────
 # Slide 操作
 # ──────────────────────────────────────────────────
@@ -321,6 +367,7 @@ def render(template_path: Path, structure_path: Path, output_path: Path):
         _write_free_shapes(new_slide, sd.get("free_shapes", {}))
         _add_text_boxes(new_slide, sd.get("add_text_boxes", []))
         _add_images(new_slide, sd.get("add_images", []))
+        _add_tables(new_slide, sd.get("add_tables", []))
         new_idx = len(prs.slides)
         sld_id = list(prs.slides._sldIdLst)[new_idx - 1]
         slide_num_to_element[sd["slide_num"]] = sld_id
@@ -339,6 +386,7 @@ def render(template_path: Path, structure_path: Path, output_path: Path):
         _write_free_shapes(slide, sd.get("free_shapes", {}))
         _add_text_boxes(slide, sd.get("add_text_boxes", []))
         _add_images(slide, sd.get("add_images", []))
+        _add_tables(slide, sd.get("add_tables", []))
         used_template_idx.add(idx)
         # 用 slide id 跟踪
         sld_id = list(prs.slides._sldIdLst)[idx - 1]
@@ -357,6 +405,7 @@ def render(template_path: Path, structure_path: Path, output_path: Path):
         _write_free_shapes(new_slide, sd.get("free_shapes", {}))
         _add_text_boxes(new_slide, sd.get("add_text_boxes", []))
         _add_images(new_slide, sd.get("add_images", []))
+        _add_tables(new_slide, sd.get("add_tables", []))
         new_idx = len(prs.slides)
         sld_id = list(prs.slides._sldIdLst)[new_idx - 1]
         slide_num_to_element[sd["slide_num"]] = sld_id
