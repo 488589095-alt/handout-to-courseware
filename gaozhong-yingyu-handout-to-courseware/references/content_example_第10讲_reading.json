@@ -1,0 +1,377 @@
+{
+  "lecture_no": "第10讲",
+  "title": "辅助方法\n阅读精练",
+  "grade": "高中英语",
+  "term": "",
+  "teacher": "主讲老师：",
+  "end": {
+    "big": "本节课结束",
+    "small": "下节课我们\n再见啦～"
+  },
+  "preview": {
+    "header": [
+      "Parts",
+      "Points",
+      "Levels",
+      "Objectives"
+    ],
+    "rows": [
+      [
+        "Part 1",
+        "主旨辅助",
+        "★★★★",
+        "能够掌握各类辅助解题方法"
+      ],
+      [
+        "Part 1",
+        "选项辅助",
+        "★★★★",
+        "能够掌握各类辅助解题方法"
+      ],
+      [
+        "Part 2",
+        "阅读B篇",
+        "★★★★",
+        "能够运用辅助方法提高阅读理解答题的效率和正确率"
+      ],
+      [
+        "Part 2",
+        "阅读C篇",
+        "★★★★★",
+        "能够运用辅助方法提高阅读理解答题的效率和正确率"
+      ],
+      [
+        "Part 2",
+        "阅读D篇",
+        "★★★★★",
+        "能够运用辅助方法提高阅读理解答题的效率和正确率"
+      ]
+    ]
+  },
+  "leading_in": "在阅读理解的解题中，除了常规解题方法外，还有哪些阅读辅助方法可以帮助我们提高答题的效率和正确率？",
+  "lecture_type": "reading",
+  "part1_zhuzhi": {
+    "title": "主旨辅助",
+    "source": "【2025·新高考II卷 — 阅读D篇】",
+    "passage": [
+      "Does your soul die a little every time you throw away unused food? Mine does. Maybe that feeling comes from growing up in South Africa, where the phrase “there are children starving in Africa” was more of an uncomfortable reminder of fact than a prayer at dinner time.",
+      "Food waste is a growing concern in the restaurant, supermarket, and supply chain industries. From technological solutions to educational campaigns, food producers and sellers are looking for ways to use more of what we’re already growing. But last month, one popular New York City restaurant tried a different way: It changed its menu to exclusively (专门) offer food that would otherwise be thrown away.",
+      "For two weeks in March, Greenwich Village’s Blue Hill restaurant was renamed wastED, and served items like fried skate cartilage, a juice pulp burger, and a dumpster diver’s vegetable salad. Each dish was tailor-made to raise awareness regarding food waste.",
+      "A study by the Food Waste Alliance determined that the average restaurant generates 33 pounds of food waste for every $1,000 in revenue (收入), and of that waste only 15.7% is donated or recycled. Up to 84.3% is simply thrown out. Restaurants like Silo in the UK have experimented with zero-waste systems, but wastED took the concept to its logical conclusion.",
+      "It should be noted that none of the items on wastED’s menu was technically made from garbage. Instead, all the ingredients (配料) used were examples of meat cuts and produce that most restaurants would never consider serving. Things like kale ribs, fish collars, rejected sweet potatoes, and cucumber butts were all re-appropriated and, with the help of a number of good chefs, turned into excellent cuisine.",
+      "Though wastED received enthusiastic reviews, it was designed from the start as a short-lived experiment; Blue Hill has since returned to its regular menu. Nevertheless, it serves as a reminder that there are many ways to address problems of sustainability, and that you can make an amazing meal out of almost anything."
+    ],
+    "method_table": [
+      [
+        "原文首尾段关键信息",
+        ""
+      ],
+      [
+        "文章主旨",
+        ""
+      ]
+    ],
+    "questions": [
+      {
+        "stem": "Q1: What can be inferred about the author’s early life?",
+        "options": [
+          "A．He witnessed food shortage.（他目睹了食物短缺。）",
+          "B．He enjoyed the local cuisine.（他喜欢当地的美食。）",
+          "C．He donated food to Africans.（他向非洲人捐赠了食物。）",
+          "D．He helped to cook at home.（他在家帮助做饭。）"
+        ],
+        "tag": "阅读理解之细节推断题",
+        "answer": "A",
+        "analysis": "推理判断题。根据文章第一段中“Maybe that feeling comes from growing up in South Africa where the phrase “there are children starving in Africa” was more of an uncomfortable reminder of fact than a prayer at dinner time. (这种感觉或许源于在南非的成长经历 —— 在那里，“非洲还有孩子在挨饿” 这句话与其说是晚餐时的祈祷，不如说是对现实令人不安的提醒)” 可知，作者在南非长大，那里有孩子挨饿是事实，由此可推断作者早年目睹了食物短缺的情况。故选A。"
+      },
+      {
+        "stem": "Q2: Why did Blue Hill carry out the experiment?",
+        "options": [
+          "A．To customize dishes for guests.（为客人定制菜肴。）",
+          "B．To make the public aware of food waste.（让公众意识到食物浪费。）",
+          "C．To test a food processing method.（测试一种食品加工方法。）",
+          "D．To improve the UK’s zero-waste systems.（改进英国的零浪费系统。）"
+        ],
+        "tag": "阅读理解之因果细节题",
+        "answer": "B",
+        "analysis": "细节理解题。根据文章第三段中“Each dish was tailor-made to raise awareness regarding food waste. (每道菜都是量身定制的，以提高人们对食物浪费的认识)”可知，Blue Hill餐厅进行这个实验，将菜单改为只提供原本会被扔掉的食物，是为了提高公众对食物浪费的认识。故选B。"
+      },
+      {
+        "stem": "Q3: What is paragraph 5 mainly about?",
+        "options": [
+          "A．Why the ingredients were used.（为什么使用这些食材。）",
+          "B．Which dishes were best liked.（哪些菜肴最受欢迎。）",
+          "C．What the dishes were made of.（这些菜肴是由什么做成的。）",
+          "D．Where the ingredients were bought.（这些食材在哪里买的。）"
+        ],
+        "tag": "阅读理解之段落大意题",
+        "answer": "C",
+        "analysis": "主旨大意题。根据文章第五段“It should be noted that none of the items on wastED’s menu was technically made from garbage. Instead, all the ingredients (配料) used were examples of meat cuts and produce that most restaurants would never consider serving. Things like kale ribs, fish collars, rejected sweet potatoes, and cucumber butts were all re-appropriated and, with the help of a number of good chefs, turned into excellent cuisine. (值得注意的是，从技术上讲，wastED的菜单上没有一项是由垃圾制成的。相反，所有使用的食材都是大多数餐馆永远不会考虑供应的肉类部位和农产品。羽衣甘蓝茎、鱼颈肉、被挑拣的红薯和黄瓜蒂等东西都被重新利用，在许多优秀厨师的助力下，变成了美味的菜肴)”可知，本段主要介绍了wastED菜单上的菜品所用的配料，如羽衣甘蓝茎、鱼颈肉、被挑拣的红薯和黄瓜蒂等，所以本段主要讲的是这些菜肴是由什么做成的。故选C。"
+      },
+      {
+        "stem": "Q4: What can we learn about wastED?",
+        "options": [
+          "A．It has ended as planned.（ 它已经按计划结束了。）",
+          "B．It is creating new jobs.（它正在创造新的工作岗位。）",
+          "C．It has regained popularity.（它重新获得了人气。）",
+          "D．It is criticized by top chefs.（它受到了顶级厨师的批评。）"
+        ],
+        "tag": "阅读理解之细节推断题",
+        "answer": "A",
+        "analysis": "推理判断题。根据文章最后一段中“Though wastED received enthusiastic reviews, it was designed from the start as a short-lived experiment; Blue Hill has since returned to its regular menu. (尽管 wastED 餐厅收获了热烈的评价，但它从一开始就被设计为短期实验项目；此后，Blue Hill 餐厅已回归常规菜单)”可知，wastED从一开始就被设计为短期实验，现在餐厅已恢复常规菜单，从而推断，实验项目“wastED”已经按计划结束了。故选A。"
+      }
+    ]
+  },
+  "part1_xuanxiang": {
+    "title": "选项辅助",
+    "table": [
+      [
+        "正确选项特征",
+        "正确选项特征",
+        "错误选项特征",
+        "错误选项特征"
+      ],
+      [
+        "常见形式",
+        "解释说明",
+        "常见形式",
+        "解释说明"
+      ],
+      [
+        "原词原句",
+        "直接将原文中的原词原句作为正确选项",
+        "大",
+        "选项夸大了原文表述的意思范围"
+      ],
+      [
+        "同义替换",
+        "原文内容进行词性转化或近义词替换",
+        "无",
+        "无中生有"
+      ],
+      [
+        "负负得正",
+        "将原文的表述改写成双重否定表肯定",
+        "极",
+        "极端词汇/过于绝对的表述"
+      ],
+      [
+        "信息归纳",
+        "用精炼的语言概括原文中分散或复杂的信息",
+        "小",
+        "选项缩小了原文表述的意思范围"
+      ],
+      [
+        "符合主旨",
+        "正确选项与文章/段落主旨的内容强相关",
+        "反",
+        "因果颠倒/主宾颠倒/与原文含义相反"
+      ],
+      [
+        "",
+        "",
+        "乱",
+        "选项出自原文，但与题干内容无关/"
+      ]
+    ]
+  },
+  "part2": [
+    {
+      "name": "阅读B篇",
+      "level": "⭐⭐⭐⭐",
+      "source": "【2025 • 广东省莞佛高三一模】",
+      "passage": [
+        "There is an embroidered (刺绣的) saying that has hung on the wall in my parents’ house, declaring “I hope my children look back on today and see a parent who had time to play. There will be years for cleaning and cooking, but children grow up when we’re not looking.”",
+        "The saying made me uneasy as a parent, particularly during the year I turned 38 with my own three daughters, since I could be both aware of the future—when my children will leave—and yet unable to appreciate every single moment.",
+        "Parents admit that they are not always looking. Yet the mother in the embroidery is fully present with her children. She has left the housework at home and come out here to be with her three children, who are throwing red and gold leaves at her, like the photo my father took for us on a weekend outing. All of us are laughing heartily.",
+        "My mother said she sewed the embroidery because she embraced the philosophy and spent time playing with her children. Yet I remember my mother driving me to the mall, the movies, the friends’ houses but I struggle to remember her playing with me. I once took my young children to the library storytimes, to the children’s museum and I dutifully followed them around. However, they recall none of it. All those years I invested in making my children feel loved and none of the memories have stayed with them.",
+        "Then there are years for cleaning and cooking, and I do not always have time to play. Cleaning and cooking is part of being a parent, part of caretaking, part of how I show love. I remember my mother cleaning and cooking. When I think of all the meals she made for us and our clothes she washed, I know that’s a mother’s love language.",
+        "I suppose that is why the embroidery exists. The embroidered saying is a mother’s love for her children, which is always looking."
+      ],
+      "questions": [
+        {
+          "stem": "(1)Why did the saying on the wall disturb the author?",
+          "options": [
+            "A．Her children were ready to leave her.",
+            "B．She was reminded of her childhood.",
+            "C．Her mother wasn’t satisfied with her.",
+            "D．She wasn’t always with her children."
+          ],
+          "tag": "阅读理解之细节推断题",
+          "answer": "D",
+          "analysis": "推理判断题。根据文章第一段 “There is an embroidered (刺绣的) saying that has hung on the wall in my parents’ house, declaring ‘I hope my children look back on today and see a parent who had time to play’. (在我父母家的墙上挂着一句刺绣的谚语，‘我希望我的孩子回顾今天，看到一个有时间玩耍的父母。’)” 以及文章第二段 “The saying made me uneasy as a parent, particularly during the year I turned 38 with my own three daughters, since I could be both aware of the future—when my children will leave- and yet unable to appreciate every single moment. (这句话让身为父母的我感到不安，尤其是在我满38岁、有三个女儿的那一年，因为我既能意识到未来——我的孩子们什么时候会离开——又不能珍惜每一刻。)” 可知，因为作者能意识到自己的孩子们会离开却又不能珍惜每一刻，即作者并不总是和孩子们在一起。故选D。"
+        },
+        {
+          "stem": "(2)What is the fourth paragraph mainly about?",
+          "options": [
+            "A．Her mother’s false memory.",
+            "B．The time wasted on the children.",
+            "C．Her regrets about her life.",
+            "D．A mother’s unremembered devotion."
+          ],
+          "tag": "阅读理解之段落大意题",
+          "answer": "D",
+          "analysis": "段落大意题。根据文章第四段 “Yet I remember my mother driving me to the mall, the movies, the friends’ houses but I struggle to remember her playing with me. I once took my young children to the library storytimes, to the children’s museum and I dutifully followed them around. However, they recall none of it. All those years I invested in making my children feel loved and none of the memories have stayed with them. (我记得妈妈开车带我去购物中心、看电影、朋友家，但我很难记得她和我一起玩。我曾经带着年幼的孩子去图书馆看故事，去儿童博物馆，我尽职尽责地跟着他们。然而，他们什么也记不起来。这么多年来，我一直在努力让我的孩子感受到被爱，但这些记忆没有一个留在他们身边。)” 可知，母亲的奉献都被孩子们遗忘了。故选D。"
+        },
+        {
+          "stem": "(3)How does the author view cleaning and cooking as a mother?",
+          "options": [
+            "A．A way to express her love and care for her family.",
+            "B．Necessary tasks that she wishes she could avoid.",
+            "C．Burdens that take away from time with her children.",
+            "D．A source of happy memories from her childhood."
+          ],
+          "tag": "阅读理解之观点态度题",
+          "answer": "A",
+          "analysis": "观点态度题。根据文章第二段 “Cleaning and cooking is part of being a parent, part of caretaking, part of how I show love. I remember my mother cleaning and cooking. When I think of all the meals she made for us and our clothes she washed, I know that’s a mother’s love language. (打扫卫生和做饭是为人父母的一部分，是照顾孩子的一部分，是我表达爱的一部分。我记得我妈妈打扫和做饭。当我想到她为我们做饭，为我们洗衣服时，我知道这是母亲爱的语言。)” 可知，作者认为清洁和做饭是母亲表达对家庭的爱和关心的一种方式。故选A。"
+        },
+        {
+          "stem": "(4)Which of the following is the best title of this text?",
+          "options": [
+            "A．She Is Always Looking",
+            "B．An Inspiring Saying",
+            "C．We Are Playing Together",
+            "D．An Unforgettable Outing"
+          ],
+          "tag": "阅读理解之标题概括题",
+          "answer": "A",
+          "analysis": "标题概括题。根据文章第一段 “There is an embroidered (刺绣的) saying that has hung on the wall in my parents’ house, declaring I hope my children look back on today and see a parent who had time to play. (在我父母家的墙上挂着一句刺绣的谚语，‘我希望我的孩子回顾今天，看到一个有时间玩耍的父母。’)” 和文章最后一段 “I suppose that is why the embroidery exists. The embroidered saying is a mother’s love for her children, which is always looking. (我想这就是刺绣存在的原因。绣着的这句话是母亲对孩子的爱，永远在看。)” 以及全文可知，文章主要讲述了作者对妈妈的爱的领悟，A项：“She Is Always Looking (她一直在关注)” 合乎题意。故选A。"
+        }
+      ]
+    },
+    {
+      "name": "阅读C篇",
+      "level": "⭐⭐⭐⭐",
+      "source": "【2024 • 江西省南昌市高三一模】",
+      "passage": [
+        "One year ago, the Colorado State Fair made headlines for unknowingly awarding first place to an artwork created with help from artificial intelligence. Now, officials with the 151-year-old fair have revised the contest's rules: Artists must claim whether they used A. I. to make their entries, reports the Denver Post's John Wenzel.",
+        "The saga (事件) began last August, when game designer Jason Allen won the top spot in the fair's digital arts competition. When he shared his victory online, he mentioned that he'd used Midjourney—an A. I. program that turns text into images—to help create his piece, titled Théâtre D'opéra Spatial.",
+        "Allen maintains he was open about using A. I. from the beginning, though judges say they didn't know until after the fact. Either way, claim wasn't necessary at the time, meaning Allen never broke any rules.",
+        "His victory was controversial—and now, as a result, officials have decided to tweak the submission requirements. At this year's fair, which took place in Pueblo between August 26 and September 4, artists needed to \"tell if art or artwork was created using an Artificial Intelligence Generator\", according to the 2023 requirements.",
+        "Allen wasn't happy about the new requirement, telling the Denver Post that it was essentially a \"discriminatory mark\" against A. I. artworks. Despite the change, he decided to submit once again to the digital arts category.",
+        "The fair's leaders say they plan to continue adapting as technology advances. As Scott Stoller, the fair's general manager, tells the Denver Post, the digital arts category itself has only been around for a few decades. In the future, officials may even decide to add a separate A. I. category, depending on how popular tools like Midjourney become.",
+        "\"That's the beauty of art—that it's always evolving,\" says Stoller. \"Art can be anything, and anything can be made into art.\""
+      ],
+      "questions": [
+        {
+          "stem": "(1)What can be learnt about Jason Allen?",
+          "options": [
+            "A．He designed an A. I. game program.",
+            "B．He opposed the use of A. I. program.",
+            "C．He made the rules of an arts contest.",
+            "D．He won first place in an art competition."
+          ],
+          "tag": "阅读理解之事实细节题",
+          "answer": "D",
+          "analysis": "细节理解题。根据第二段中“The saga (事件) began last August, when game designer Jason Allen won the top spot in the fair's digital arts competition. (这个事件始于去年8月，当时游戏设计师杰森·艾伦 (Jason Allen) 赢得了博览会数字艺术竞赛的冠军。)”可知，Jason Allen在这次艺术比赛中获得了第一名。故选D。"
+        },
+        {
+          "stem": "(2)What does the underlined word \"tweak\" in Paragraph 4 mean?",
+          "options": [
+            "A．Select.\tB．Revise.\tC．Continue.\tD．Create."
+          ],
+          "tag": "阅读理解之词义猜测题",
+          "answer": "B",
+          "analysis": "词义猜测题。根据第四段中“His victory was controversial—and now, as a result, officials have decided to tweak the submission requirements. (他的胜利是有争议的，因此，现在官员们决定tweak提交要求。)”；以及第五段中“Allen wasn't happy about the new requirement, (Allen对这项新规定并不满意，)”可知，因为这次事件，主办方对作品提交要求做出了一些改变。“revise”意为“修改，改变”。故选B。"
+        },
+        {
+          "stem": "(3)What's Stoller's attitude towards the A. I. artworks?",
+          "options": [
+            "A．Unclear.\tB．Doubtful.\tC．Approving.\tD．Dismissive."
+          ],
+          "tag": "阅读理解之观点态度题",
+          "answer": "C",
+          "analysis": "观点态度题。根据最后一段“'That's the beauty of art—that it's always evolving,' says Stoller. 'Art can be anything, and anything can be made into art.' (斯托勒 (Stoller) 说：‘这就是艺术之美——它总是在不断发展。’‘艺术可以是任何东西，任何东西都可以成为艺术。’)”可知，Stoller对人工智能创作的作品持支持态度。A. Unclear 不清楚的；B. Doubtful 怀疑的；C. Approving 赞成的，同意的；D. Dismissive 鄙视的。故选C。"
+        },
+        {
+          "stem": "(4)Which of the following can be the best title for the text?",
+          "options": [
+            "A．A. I. Artworks, Rock the World",
+            "B．A. I. Artworks, Lead the Trend",
+            "C．A. I. Artworks, Face New Challenges",
+            "D．A. I. Artworks, Bring New Rules"
+          ],
+          "tag": "阅读理解之标题概括题",
+          "answer": "D",
+          "analysis": "标题概括题。根据第一段中“Now, officials with the 151-year-old fair have revised the contest's rules: Artists must claim whether they used A. I. to make their entries, reports the Denver Post's John Wenzel. (据《丹佛邮报》的约翰·温泽尔 (John Wenzel) 报道，现在，这个有着151年历史的博览会的官员修改了比赛规则：艺术家必须声明他们是否使用了人工智能来制作作品。)”可知，人工智能创作出的作品让历史悠久的博览会修改了比赛规则。故选D。"
+        }
+      ]
+    },
+    {
+      "name": "阅读D篇",
+      "level": "",
+      "source": "【2024 • 浙江省Z20联盟高三三模】",
+      "passage": [
+        "An ancient, interdependent relationship that contributes to food systems and ecosystem stability across the globe could be changing.",
+        "Many flowering plants can self-pollinate (自花传粉), or transfer pollen between their own blossoms for seed generation and reproduction, but most of these plants have relied on pollinators such as butterflies and bees to reproduce. Now—during declines reported in many pollinator populations—a new study on the evolution of one flower species' mating system has revealed a remarkable change that could worsen the challenges faced by the plants' insect partners.",
+        "The flowers reproductive evolution may be linked to environmental changes such as habitat destruction and rapid ongoing decreases in pollinator biodiversity, according to Samson Acoca-Pidolle, who led the study published December 19 in the journal New Phytologist.",
+        "Comparing seeds of wild field pansies (三色堇) collected decades ago in France with the plants' modern descendants. Acoca-Pidolle and his colleagues discovered that today's flowers are smaller and produce less nectar (花蜜) as a result of increased self-pollination, which has direct impacts on pollinator behavior. The pansies of the past self-fertilized less and attracted far more pollinators than those of the present, according to the study.",
+        "\"It seems that it's only traits (特性) that are involved in plant-pollinator interaction that are evolving, \" said Acoca-Pidolle. The changes could restrict the plants' ability to adapt to future environmental changes and have implications for \"all of floral biodiversity\"—potentially decreasing flowering plants' genetic, species and ecosystem variation.",
+        "\"This may increase the pollinator decline and cause a negative feedback cycle,\" study co-author Pierre-Olivier Cheptou told CNN. \"If plants produce less nectar, there will be less food available to pollinators, which will in turn accelerate the rate at which the animals' numbers decrease\", he explained.",
+        "\"The major message is that we are currently seeing the evolutionary breakdown of plant pollinators in the wild,\" said Cheptou, an evolutionary ecologist at the French National Centre for Scientific Research and professor at the University of Montpellier."
+      ],
+      "questions": [
+        {
+          "stem": "(1)Which of the following may contribute to the flowers' reproductive evolution?",
+          "options": [
+            "A．Changed behaviour of pollinators.",
+            "B．Severe pollution to the habitats.",
+            "C．Continuing decline in pollinator biodiversity.",
+            "D．Increased plant-pollinator interaction."
+          ],
+          "tag": "阅读理解之细节推断题",
+          "answer": "C",
+          "analysis": "推理判断题。根据第三段“The flowers reproductive evolution may be linked to environmental changes such as habitat destruction and rapid ongoing decreases in pollinator biodiversity, according to Samson Acoca-Pidolle, who led the study published December 19 in the journal New Phytologist. (12月19日发表在《新植物学家》 (New Phytologist) 杂志上的这项研究的萨姆森·阿科卡-皮多尔 (Samson Acoca-Pidolle) 表示，花的生殖进化可能与环境变化有关，例如栖息地破坏和传粉媒介生物多样性的快速持续下降。)”可知，传粉生物多样性持续下降可能有助于花的生殖进化。故选C。"
+        },
+        {
+          "stem": "(2)Why were pansies in the past larger and produced more nectar?",
+          "options": [
+            "A．They self-pollinated less.",
+            "B．They had a better mating system.",
+            "C．They attracted less pollinators.",
+            "D．They were fertilized by themselves."
+          ],
+          "tag": "阅读理解之细节推断题",
+          "answer": "A",
+          "analysis": "推理判断题。根据第四段中“Acoca-Pidolle and his colleagues discovered that today’s flowers are smaller and produce less nectar (花蜜) as a result of increased self-pollination, which has direct impacts on pollinator behavior. (Acoca-Pidolle和他的同事们发现，由于自花授粉的增加，今天的花朵更小，产生的花蜜 (花蜜) 更少，这对传粉者的行为有直接影响。)”可知，过去的三色堇更大，花蜜很多是因为他们自花授粉少。故选A。"
+        },
+        {
+          "stem": "(3)What is the result of the changes in the flowers' reproductive evolution?",
+          "options": [
+            "A．The flowering plants may have more variations.",
+            "B．The evolution of wild plant pollinators is collapsing.",
+            "C．The numbers of the animals will increase more rapidly.",
+            "D．The plants will adapt to the environmental changes better."
+          ],
+          "tag": "阅读理解之细节推断题",
+          "answer": "B",
+          "analysis": "推理判断题。根据第最后一段“‘The major message is that we are currently seeing the evolutionary breakdown of plant pollinators in the wild,’ said Cheptou, an evolutionary ecologist at the French National Centre for Scientific Research and professor at the University of Montpellier. (‘主要的信息是，我们目前看到野生植物传粉媒介的进化崩溃，’法国国家科学研究中心的进化生态学家、蒙彼利埃大学教授切普图说。)”可知，花朵繁殖进化变化导致野生植物传粉者的进化正在崩溃。故选B。"
+        },
+        {
+          "stem": "(4)Which is the best title for the text?",
+          "options": [
+            "A．Pollinator Populations: Declining.",
+            "B．Flowering Plants: Selfing.",
+            "C．Interdependent Relationship: Maintaining.",
+            "D．Floral Diversity: Increasing."
+          ],
+          "tag": "阅读理解之标题概括题",
+          "answer": "B",
+          "analysis": "标题概括题。根据第三段“The flowers reproductive evolution may be linked to environmental changes such as habitat destruction and rapid ongoing decreases in pollinator biodiversity, according to Samson Acoca-Pidolle, who led the study published December 19 in the journal New Phytologist. (这项研究发表在12月19日的《新植物学家》(New phyologist) 杂志上，该研究的负责人Samson Acoca-Pidolle表示，“这种花的生殖进化可能与环境变化有关，比如栖息地的破坏和传粉媒介生物多样性的迅速减少。”并通读全文可知，由于环境变化如栖息地破坏和传粉者多样性的快速减少，开花植物正在更多地自我授粉，这是由于传粉者种群减少和环境变化导致的，“开花植物：自我授粉”适合作标题。故选B。"
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "part_label": "PART 1",
+      "title": "辅助方法",
+      "subtitle": "主旨辅助 · 选项辅助"
+    },
+    {
+      "part_label": "PART 2",
+      "title": "篇章训练",
+      "subtitle": "阅读B篇 · 阅读C篇 · 阅读D篇"
+    }
+  ]
+}
